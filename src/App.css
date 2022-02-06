@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+#header {
+  background-color: brown;
+}
+ul li {
+  display: inline-block;
+
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 10px;
+  cursor: pointer;
+}
+ul li:hover {
+  background-color: blueviolet;
+}
+.banner {
+  background: url("./images/alvin-engler-bIhpiQA009k-unsplash.jpg") no-repeat 0
+    0;
+  background-size: cover;
+}
+.bannerTitle h2 {
+  background: rgba(225, 225, 255, 0.8);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bannerTitle p {
+  background: rgba(100, 225, 255, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+.content h2 {
+  text-transform: capitalize;
+}
+.content i {
+  font-size: 4rem;
+  color: brown;
+}
+.content {
+  text-align: center;
+}
+.heading:after {
+  background-color: blueviolet;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  margin: 20px auto;
+}
+.testimonial h2 {
+  text-transform: capitalize;
+}
+.testimonial h2::after {
+  background-color: brown;
+  content: "";
+  display: block;
+  width: 130px;
+  height: 3px;
+  margin: 20px auto;
+}
+.testimonial {
+  background: url("./images/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg") no-repeat
+    0 0;
+  background-size: cover;
+  color: white;
+}
+.testimonial img {
+  border-radius: 50%;
+}
+.testimonial h4 {
+  text-transform: capitalize;
+}
+
+.recentNews {
+  text-transform: capitalize;
+}
+.newsDate::before {
+  content: "\f073";
+  font-family: "Font Awesome\ 5 Free";
+}
